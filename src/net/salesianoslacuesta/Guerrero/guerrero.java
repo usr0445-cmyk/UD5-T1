@@ -1,5 +1,7 @@
 package net.salesianoslacuesta.Guerrero;
+import net.salesianoslacuesta.Personaje.personaje;
 
-public class guerrero {
+public class guerrero extends personaje {
     
+
 }
