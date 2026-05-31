@@ -52,5 +52,14 @@ public class personaje {
         }
 
     }
+
+    public void gastarEnergia(int cantidad) {
+        if (cantidad > 0) {
+            energia = energia - cantidad;
+            if (energia < 0) {
+                energia = 0;
+            }
+        }
+    }
     
 }
