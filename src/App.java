@@ -15,6 +15,11 @@ public class App {
         thorak.ataquePesado();
         thorak.mostrarInfo();
         thorak.descansar(10);
+
+
+        mago lyra = new mago("Lyra", 4, "Fuego");
+        lyra.mostrarInfo();
+        
     }
 
   
