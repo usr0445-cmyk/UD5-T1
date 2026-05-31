@@ -9,4 +9,15 @@ public class mago extends personaje  {
         super(nombre, nivel);
         this.elemento = elemento;
     }
+
+    @Override
+    public void mostrarInfo(){
+        System.out.println("Nivel: " + getNivel());
+        System.out.println("Elemento: " + elemento);
+
+    }
+
+    public void ataqueElemental(){
+        gastarEnergia(25);
+    }
 }
