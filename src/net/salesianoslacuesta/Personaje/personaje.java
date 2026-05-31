@@ -36,5 +36,21 @@ public class personaje {
     public void setEnergia(int energia) {
         this.energia = energia;
     }
+
+    public void entrenar(int niveles) {
+        if (niveles > 0) {
+            nivel = nivel + niveles;
+        }
+    }
+
+    public void descansar(int cantidad) {
+        if (cantidad > 0) {
+            energia = energia + cantidad;
+            if (energia > 100) {
+                energia = 100;
+            }
+        }
+
+    }
     
 }
