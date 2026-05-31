@@ -9,5 +9,13 @@ public class App {
         viajero.entrenar(4);
         viajero.gastarEnergia(30);
         viajero.mostrarInfo();
+
+
+        guerrero thorak = new guerrero("Thorak", 5, "Hacha doble");
+        thorak.ataquePesado();
+        thorak.mostrarInfo();
+        thorak.descansar(10);
     }
+
+  
 }
