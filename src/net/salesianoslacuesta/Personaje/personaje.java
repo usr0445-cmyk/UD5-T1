@@ -61,5 +61,11 @@ public class personaje {
             }
         }
     }
+
+    public void mostrarInfo() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Nivel: " + nivel);
+        System.out.println("Energía: " + energia);
+    }
     
 }
